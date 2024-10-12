@@ -1,0 +1,29 @@
+{
+  "name": "new-home-group-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "heroku"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.43.4",
+    "connect-timeout": "^1.9.0",
+    "cron": "^3.1.7",
+    "debounce": "^2.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "lodash.debounce": "^4.0.8",
+    "node-cron": "^3.0.3"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
